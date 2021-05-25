@@ -14,6 +14,7 @@
 		9B268C93265A950B00CF79CE /* A2_FA_iOS_dinamol_786954.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B268C91265A950B00CF79CE /* A2_FA_iOS_dinamol_786954.xcdatamodeld */; };
 		9B268C95265A950C00CF79CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B268C94265A950C00CF79CE /* Assets.xcassets */; };
 		9B268C98265A950C00CF79CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B268C96265A950C00CF79CE /* LaunchScreen.storyboard */; };
+		FB270154265CF8FA003628D1 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB270153265CF8FA003628D1 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9B268C94265A950C00CF79CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B268C97265A950C00CF79CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B268C99265A950C00CF79CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB270153265CF8FA003628D1 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				9B268C96265A950C00CF79CE /* LaunchScreen.storyboard */,
 				9B268C99265A950C00CF79CE /* Info.plist */,
 				9B268C91265A950B00CF79CE /* A2_FA_iOS_dinamol_786954.xcdatamodeld */,
+				FB270153265CF8FA003628D1 /* ListViewController.swift */,
 			);
 			path = A2_FA_iOS_dinamol_786954;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				9B268C8D265A950B00CF79CE /* ViewController.swift in Sources */,
 				9B268C93265A950B00CF79CE /* A2_FA_iOS_dinamol_786954.xcdatamodeld in Sources */,
 				9B268C89265A950B00CF79CE /* AppDelegate.swift in Sources */,
+				FB270154265CF8FA003628D1 /* ListViewController.swift in Sources */,
 				9B268C8B265A950B00CF79CE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
