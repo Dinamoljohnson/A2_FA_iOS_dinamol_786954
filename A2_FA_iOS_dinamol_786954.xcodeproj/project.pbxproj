@@ -15,6 +15,7 @@
 		9B268C95265A950C00CF79CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B268C94265A950C00CF79CE /* Assets.xcassets */; };
 		9B268C98265A950C00CF79CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B268C96265A950C00CF79CE /* LaunchScreen.storyboard */; };
 		FB270154265CF8FA003628D1 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB270153265CF8FA003628D1 /* ListViewController.swift */; };
+		FB276FCD265E2FA60082BF1B /* products.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB276FCC265E2FA60082BF1B /* products.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9B268C97265A950C00CF79CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B268C99265A950C00CF79CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB270153265CF8FA003628D1 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		FB276FCC265E2FA60082BF1B /* products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = products.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +62,10 @@
 		9B268C87265A950B00CF79CE /* A2_FA_iOS_dinamol_786954 */ = {
 			isa = PBXGroup;
 			children = (
+				FB276FCB265E2F3D0082BF1B /* model */,
 				9B268C88265A950B00CF79CE /* AppDelegate.swift */,
 				9B268C8A265A950B00CF79CE /* SceneDelegate.swift */,
-				9B268C8C265A950B00CF79CE /* ViewController.swift */,
+				FB276FC8265E2EAC0082BF1B /* VC */,
 				9B268C8E265A950B00CF79CE /* Main.storyboard */,
 				9B268C94265A950C00CF79CE /* Assets.xcassets */,
 				9B268C96265A950C00CF79CE /* LaunchScreen.storyboard */,
@@ -71,6 +74,22 @@
 				FB270153265CF8FA003628D1 /* ListViewController.swift */,
 			);
 			path = A2_FA_iOS_dinamol_786954;
+			sourceTree = "<group>";
+		};
+		FB276FC8265E2EAC0082BF1B /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				9B268C8C265A950B00CF79CE /* ViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		FB276FCB265E2F3D0082BF1B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FB276FCC265E2FA60082BF1B /* products.swift */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B268C8D265A950B00CF79CE /* ViewController.swift in Sources */,
+				FB276FCD265E2FA60082BF1B /* products.swift in Sources */,
 				9B268C93265A950B00CF79CE /* A2_FA_iOS_dinamol_786954.xcdatamodeld in Sources */,
 				9B268C89265A950B00CF79CE /* AppDelegate.swift in Sources */,
 				FB270154265CF8FA003628D1 /* ListViewController.swift in Sources */,

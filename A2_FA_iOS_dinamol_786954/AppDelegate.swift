@@ -1,5 +1,4 @@
-//
-//  AppDelegate.swift
+//	//  AppDelegate.swift
 //  A2_FA_iOS_dinamol_786954
 //
 //  Created by MacStudent on 2021-05-23.

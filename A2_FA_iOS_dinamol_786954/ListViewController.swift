@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import CoreData
 
 class ListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
-    var productArray:[Products] = []
+    var productArray = [Products]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -50,5 +52,5 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
             print(error)
         }
     }
-    
+    				
 }
