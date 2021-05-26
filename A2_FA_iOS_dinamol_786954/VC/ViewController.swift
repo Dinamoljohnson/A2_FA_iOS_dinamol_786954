@@ -24,7 +24,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
        
                 managedContext =  appDelegate.persistentContainer.viewContext
-
+   
+        let tap = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
+        tap.cancelsTouchesInView = false
+        self.view.addGestureRecognizer(tap)
        
                 loadCoreData()
     }
@@ -89,21 +92,20 @@ func clearCoreData() {
         }
 
 }
+    @objc func hideKeyboard() {
+        self.view.endEditing(true)
+    }
     
-    @IBAction func saveBtn(_ sender: Any) {
-        //to get values from textfields
-        _ = self.textFields[0].text
-        _ = self.textFields[1].text
-        _ = self.textFields[2].text
-        _ = self.textFields[3].text
-        _ = self.textFields[4].text
+    
         
-        
+    func tapOnButton() {
                 
-            
+            let story = UIStoryboard(name: "Main", bundle: nil)
+        let controller = story.instantiateViewController(identifier: "ListViewController") as! ListViewController
+        self.present(controller, animated: true, completion: nil)
         
 }
-    @IBAction func cancelBtn(_ sender: Any) {
+        func cancelBtn(_ sender: UIButton) {
             dismiss(animated: true, completion: nil)
 
 }

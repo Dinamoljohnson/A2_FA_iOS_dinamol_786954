@@ -150,7 +150,7 @@
         <!--List View Controller-->
         <scene sceneID="GJH-TN-xzP">
             <objects>
-                <viewController id="XYF-P8-sTF" customClass="ListViewController" customModule="A2_FA_iOS_dinamol_786954" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ListViewController" id="XYF-P8-sTF" customClass="ListViewController" customModule="A2_FA_iOS_dinamol_786954" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vzt-cO-fio">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
